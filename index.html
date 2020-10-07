@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alisher Begmatov - Final - WEB 1.0</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" async></script>
+</head>
+<body>
+  <article>
+
+    <!-- SECTION 1 -->
+    <section class="section_1">
+      <div id="student-info">
+        <h1>Alisher Begmatov</h1>
+        <p>My favorite color is Black and I wear Adidas!</p>
+
+      </div>
+      <div id="data-input">
+        <h1>Font Styler</h1>
+        <label for="input-size">Font Size</label>
+        <input id="input-size" type="number">
+        <label for="select-font">Font Family</label>
+
+        <select id="select-font">
+          <option value="Helvetic">Helvetic</option>
+          <option value="Arial">Arial</option>
+          <option value="Times New Roman">Times New Roman</option>
+          <option value="Georgia">Georgia</option>
+        </select>
+
+        <label for="input-color">Font Color</label>
+        <input id="input-color" type="color" value="#0037ff">
+        <label for="input-bg-color">Background Color</label>
+        <input id="input-bg-color" type="color" value="#813c86">
+        <label for="enter-text">Enter Text</label>
+        <textarea id="enter-text">
+
+        </textarea>
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section_2">
+      <div id="headline-display">
+        <h1 id="display" style="background-color: #813c86; padding-top: 20px; padding-bottom: 20px; color: #0037ff;">Sample Text</h1>
+      </div>
+      <div id="data-output">
+        <h1>Font Settings</h1>
+        <pre><code>.headline {
+          font-size: <span id="show-size">16</span>px;
+          font-family: <span id="show-font">Times</span>;
+          color: <span id="show-color">#000</span>;
+          background-color: <span id="show-bg-color">#fff</span>;
+        }</code></pre>
+      </div>
+    </section>
+
+  </article>
+</body>
+</html>
